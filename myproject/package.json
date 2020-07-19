@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "g": "^2.0.1",
     "react": "^16.13.1",
+    "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "yarn": "^1.22.4"
