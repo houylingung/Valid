@@ -9,17 +9,18 @@ function Example(props){
         setIsPressed(!pressed);
     }
 
-    return !pressed ?(
-        <div className="notPressed">
-            <p>Button is not pressed</p>
-            <button onClick={ handleClick }>change state</button>
-        </div>
+    return (
+        <div>
+            <h3>Article 1</h3>
+            <h3>Article 2</h3>
+            <h3>Article 3</h3>
+       </div>   
     )
-    :
-    <div>
-        <p>Button is pressed</p>
-        <button onClick={ handleClick }>change state</button>
-    </div>
+    
 }
 
-export default Example
+export default Example;
+
+
+
+

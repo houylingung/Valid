@@ -5,7 +5,6 @@
 .App-logo {
   height: 25vmin;
   pointer-events: none;
-  left: 0;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -25,25 +24,26 @@
   clear: both;
 }
 .App-header {
-  background-color: #3ed8be;
+  background-color: #c4dcdf;
   min-height: 100vh;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  float: left;
+  align-items: flex-start;
   justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: red;
   position: absolute;
   top: 0px;
   left: 0px;
+
 }
 
 .App-link {
   color: #61dafb;
+
 }
 
 /* @keyframes App-logo-spin {
@@ -54,3 +54,37 @@
     transform: rotate(360deg);
   }
 } */
+
+.message{
+ color: black;
+ padding: 20px;
+ text-shadow: 5px 5px 10px grey;
+ font-size: 27px;
+ font-family: 'EB Garamond', serif;
+ position: relative;
+ float: right;
+ margin-right: 10px;
+}
+
+.NavBar{
+  flex-basis: auto;
+  position: relative;
+  content: auto;
+  float: top;
+  margin-top:120px;
+  margin-right: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1500x;
+  margin-left: 335px;
+  background-color: rgb(223, 215, 215);  
+}
+
+.covidTable{
+  background-color: black;
+}
+
+
+  
